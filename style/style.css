@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'WestGate';
+  src: url('../assets/fonts/westgate/Westgate.woff2') format('woff2'),
+       url('../assets/fonts/westgate/Westgate.woff') format('woff'),
+       url('../assets/fonts/westgate/Westgate.ttf') format('ttf');
+}
+
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -5,8 +15,8 @@
   }
 
   header {
-    background-color: #333;
-    height: 100px;
+    background-color: #333333;
+    height: 130px;
   }
 
   .menu-list {
@@ -39,7 +49,8 @@
 
   .menu-item-text {
     color: white;
-    font-size: 20px;
+    font-size: 40px;
+    font-family: 'WestGate';
   }
 
   .menu-item-logo {
@@ -48,8 +59,8 @@
   }
 
   .menu-item-main-logo {
-    width: 180px;
-    height: 85px;
+    width : 100%;
+    height: 100%;
   }
 
   .grid-photo {
@@ -68,4 +79,13 @@
     max-width: 100%;
     height: auto;
   }
+
+  .photo {
+    width: 100%;
+  }
+
+  main {
+    background-color: #333333;
+  }
+  
   
