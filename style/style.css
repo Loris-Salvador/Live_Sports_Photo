@@ -30,6 +30,13 @@
     align-items: center; /*Alignement vertical*/
   }
 
+  .menu-item-main-logo-container{
+    flex : 2;
+    display: flex;
+    justify-content: center; /*Alignement horizontal*/
+    align-items: center; /*Alignement vertical*/
+  }
+
   .menu-item-text {
     color: white;
     font-size: 20px;
@@ -40,5 +47,25 @@
     height: 40px;
   }
 
+  .menu-item-main-logo {
+    width: 180px;
+    height: 85px;
+  }
 
-
+  .grid-photo {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+  }
+  
+  .photo-item {
+    padding: 0px;
+    border-color: transparent;
+  }
+  
+  .photo-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
