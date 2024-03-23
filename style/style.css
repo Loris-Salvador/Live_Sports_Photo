@@ -9,6 +9,10 @@
     scroll-behavior: smooth;
   }
 
+  body {
+    background-color: #333333;
+  }
+
 * {
     margin: 0;
     padding: 0;
@@ -104,13 +108,13 @@
     margin-left: 200px;
     margin-right: 200px;
     margin-bottom: 30px;
-    height: 400px;
+    height: 700px;
     display: flex;
     flex-direction: column;
   }
 
   .about-title-container {
-    flex: 2;
+    flex: 1;
   }
 
   .about-name-container {
