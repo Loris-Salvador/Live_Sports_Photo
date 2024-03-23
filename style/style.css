@@ -5,6 +5,10 @@
         url('../assets/fonts/westgate/Westgate.ttf') format('ttf');
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
 * {
     margin: 0;
     padding: 0;
@@ -48,6 +52,17 @@
     color: white;
     font-size: 40px;
     font-family: 'WestGate';
+    text-decoration: none;
+  }
+
+  .menu-item-button {
+    color: white;
+    background-color: transparent;
+    border: transparent;
+    font-size: 40px;
+    font-family: 'WestGate';
+    text-decoration: none;
+    cursor: pointer;
   }
 
   .menu-item-logo {
@@ -165,4 +180,49 @@
     color: white;
     text-align: center;
     font-family: Verdana;
+  }
+
+
+  .contact-container {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-title-container {
+    flex: 1;
+  }
+
+  .contact-title-container h1 {
+    color: white;
+    text-align: center;
+    font-family: WestGate;
+    font-size: 60px;
+  }
+
+  .contact-paragraph-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact-paragraph-logo-container img {
+    height: 50px;
+    color: transparent;
+  }
+
+  .contact-paragraph-text-container p {
+    color: white;
+    font-family: Verdana;
+    font-size: 25px;
+    margin-left: 12px;
+  }
+
+  .contact-paragraph-text-container a {
+    text-decoration: none;
   }
