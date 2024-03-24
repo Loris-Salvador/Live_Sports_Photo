@@ -230,3 +230,38 @@
   .contact-paragraph-text-container a {
     text-decoration: none;
   }
+
+  @media screen and (max-width: 800px) {
+
+    #menu-item-about-container {
+      display: none;
+    }
+
+    #menu-item-services-container {
+      display: none;
+    }
+
+    #menu-item-contact-container {
+      display: none;
+    }
+    .menu-item-main-logo-container{
+      flex : 3;
+    }
+
+    .about-container {
+      margin-top: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 0px;
+      height: 700px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .grid-photo {
+      margin: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
